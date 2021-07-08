@@ -14,3 +14,7 @@ Basically, 2048 presents with with a 4×4 grid. When you start the game, there w
 
 - HTML5, CSS3 and Vanilla Javascript.
 - Code editor - Visual Studio Code ( https://code.visualstudio.com/ )
+
+### Working Demo Link
+
+https://2048--game.000webhostapp.com/
