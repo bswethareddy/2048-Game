@@ -1,0 +1,84 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(digital-7.ttf);
+}
+body {
+    font-weight: bold;
+    justify-content: center;
+    background-color: rgb(32, 1, 32);
+}
+
+.container{
+    font-family:'Courier New', Courier, monospace;
+    width : 500px;
+    margin-top: 10px;
+}
+
+.main-game{
+    justify-content: space-between;
+    display:flex;
+    margin-bottom: 14px;
+}
+h1{
+    font-size: 80px;
+    line-height: 0.7;
+    color: #776E65;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width:537px;
+    height:470px;
+    background-color: #BBADA0;
+    border: 7px solid #BBADA0;
+    border-radius: 15px;
+    margin-top: 12px;
+}
+
+.grid div{
+    width:120px;
+    height:105px;
+    background-color: #EEE4DA;
+    color: #afa192;
+    margin: 6px;
+    font-size:50px;
+    text-align:center;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1.6;
+    border-radius: 8px;
+}
+  
+.score-container {
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    border-radius: 7px;
+    border: 6px solid #ce621b;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+  
+#score {
+    font-size: 30px;
+    padding-top:2px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.score-title {
+    font-size: 18px;
+    padding-top:4px;
+    background-color:#FFFFFF;
+    color: rgb(27, 21, 21)
+}
+#info {
+    color: greenyellow;
+    font-family:'Courier New', Courier, monospace;
+}
+#result{
+    font-size:60px;
+    color:rgb(116, 201, 201);
+}
